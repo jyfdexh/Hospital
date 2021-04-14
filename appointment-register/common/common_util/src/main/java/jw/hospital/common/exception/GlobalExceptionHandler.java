@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice
+@SuppressWarnings( "all" )
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
